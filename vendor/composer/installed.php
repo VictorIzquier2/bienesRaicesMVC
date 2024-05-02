@@ -3,7 +3,7 @@
         'name' => 'victor/bienesraices',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '45d2bc41f2914a2c2cb1fee1ec55648dec56b4ab',
+        'reference' => '0febe76e0195a404c3ab45cda6fd5f082893449d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'victor/bienesraices' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '45d2bc41f2914a2c2cb1fee1ec55648dec56b4ab',
+            'reference' => '0febe76e0195a404c3ab45cda6fd5f082893449d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
