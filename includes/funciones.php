@@ -35,6 +35,17 @@ function validarTipoContenido($tipo){
   return in_array($tipo, $tipos);
 }
 
+// Validar o redireccionar al actualizar un registro 
+function validarORedireccionar(string $url){
+
+  $id = $_GET['id'];
+  $id = filter_var($id, FILTER_VALIDATE_INT);
+  
+  if(!$id){ header("Location: {$url}");};
+
+  return $id;
+}
+
 function mostrarNotificacion($codigo){
   switch ($codigo) {
     case '1':

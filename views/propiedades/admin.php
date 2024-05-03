@@ -28,8 +28,8 @@
         <td><img src="/imagenes/<?php echo $propiedad->imagen; ?>" alt="Imagen Propiedad" class="imagen-tabla"></td>
         <td><?php echo $propiedad->precio; ?> €</td>
         <td>
-          <a href="/admin/propiedades/actualizar.php?id=<?php echo $propiedad->id; ?>" class="boton-amarillo-block">Actualizar</a>
-          <form method="POST" class="w-100">
+          <a href="/propiedades/actualizar?id=<?php echo $propiedad->id; ?>" class="boton-amarillo-block">Actualizar</a>
+          <form method="POST" class="w-100" action="/propiedades/eliminar">
             <input type="hidden" name="id" value="<?php echo $propiedad->id; ?>"/>
             <input type="hidden" name="tipo" value="propiedad"/>
             <input type="submit" class="boton-rojo-block" value="Eliminar" />
